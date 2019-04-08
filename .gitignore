@@ -1,0 +1,9 @@
+*.xcuserstate
+*.xcbkptlist
+*.lock
+*.a
+*.DS_Store
+*.xcworkspace
+xcuserstate
+Pods
+*.framework
