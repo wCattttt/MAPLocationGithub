@@ -1,0 +1,23 @@
+//
+//  PrefixHeader.pch
+//  MAPLocation
+//
+//  Created by 魏唯隆 on 2019/4/8.
+//  Copyright © 2019 魏唯隆. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define MapAPPKey @"请填写bundleid对应的appkey"
+
+// 请求高德提供获取serviceID接口，文档链接：https://lbs.amap.com/api/track/lieying-kaifa/api/service
+#define kAMapTrackServiceID  @"高德接口获取serviceID"
+#define kAMapTrackTerminalID [[NSUserDefaults standardUserDefaults] objectForKey:@"terminalId"]
+
+#define KScreenWidth [[UIScreen mainScreen] bounds].size.width
+#define KScreenHeight [[UIScreen mainScreen] bounds].size.height - 49
+
+#import <MBProgressHUD.h>
+
+#endif /* PrefixHeader_pch */
